@@ -1,0 +1,5 @@
+There are two tables BOOKS and BOOK_TAGS.
+isbn_13 is the primary key of the table BOOKS
+BOOK_TAGS.isbn_13 is foreign key references BOOK.isbn_13
+isbn_13 and tag_name together is the primary key of the table BOOK_TAGS
+The table BOOKS gave one-to-many relationship with table BOOK_TAGS
